@@ -85,11 +85,11 @@
                 </div>
                 <form action="Out" method="post" id="out_form" class="top_form">
                     <input type="text" style="display: none;" value="<%=Name%>" name="username">
-                    <button type="submit" id="change">退出</button>
+                    <button type="button" id="change">退出</button>
                 </form>
                 <form action="Dispose" method="post" id="dispose_form" class="top_form">
                     <input type="text" style="display: none;" value="<%=Name%>" name="username">
-                    <button type="submit" id="out">退出并销毁</button>
+                    <button type="button" id="out">退出并销毁</button>
                 </form>
             </div>
             <p class="copy fadeIn animated">Copyright © 2017.JasonLin</p>
@@ -103,7 +103,7 @@
                             <input type="text" name="username" value="<%=Name%>">
                         </li>
                         <li class="input-wrap">
-                            <input required type="text" placeholder="原始密码" name="old_password">
+                            <input required type="text" placeholder="原始密码" name="old_password" autofocus="autofocus">
                         </li>
                         <li class="input-wrap">
                             <input required type="password" placeholder="新密码" name="new_password">

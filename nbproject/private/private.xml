@@ -4,7 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/NetBeanProjects/Chat/src/java/service/UserService.java</file>
+            <file>file:/D:/NetBeanProjects/Chat/web/manage.jsp</file>
+            <file>file:/D:/NetBeanProjects/Chat/web/ChatRoom.jsp</file>
+            <file>file:/D:/NetBeanProjects/Chat/src/java/web/servlet/Login.java</file>
             <file>file:/D:/NetBeanProjects/Chat/web/login.jsp</file>
+            <file>file:/D:/NetBeanProjects/Chat/src/java/userBean/User.java</file>
+            <file>file:/D:/NetBeanProjects/Chat/web/result.jsp</file>
+            <file>file:/D:/NetBeanProjects/Chat/src/java/service/UserException.java</file>
+            <file>file:/D:/NetBeanProjects/Chat/src/java/dao/UserDao.java</file>
         </group>
     </open-files>
 </project-private>

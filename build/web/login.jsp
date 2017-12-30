@@ -39,7 +39,7 @@
                 %>
                 <div class="input-group fadeInDown animated">
                     <div class="input-wrap">
-                        <input required type="text" placeholder="用户名" value="<%=cur_Name%>" name="username" class="name_input">
+                        <input required type="text" placeholder="用户名" value="<%=cur_Name%>" name="username" class="name_input" autofocus="autofocus">
                     </div>
                     <div class="input-wrap">
                         <input required type="password" placeholder="密码" name="password">

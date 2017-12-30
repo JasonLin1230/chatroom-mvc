@@ -59,4 +59,24 @@ $(function(){
         };
         init();
     })();
+//    操作提醒
+    function warning(btn,form){
+        btn.click(function (){
+        layer.confirm('确认进行该操作吗？', {
+                icon: 3,
+                title:'警告',
+                btn: ['确认','取消'] 
+            },  function(){
+                form.submit();
+            }, function(){
+                layer.close();
+            });
+        });
+    };
+    var out_form=$("#out_form");
+    var out_btn=$("#out_form button");
+    var dispose_form=$("#dispose_form");
+    var dispose_btn=$("#dispose_form button");
+    warning(out_btn,out_form);
+    warning(dispose_btn,dispose_form);
 });

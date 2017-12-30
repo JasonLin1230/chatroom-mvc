@@ -60,7 +60,7 @@
                         <input type="text"  placeholder="ID" name="userid" id="userid">
                     </li>
                     <li class="input-wrap">
-                        <input type="text" placeholder="用户名" name="username" id="username">
+                        <input type="text" placeholder="用户名" name="username" id="username"  autofocus="autofocus">
                     </li>
                     <li class="input-wrap">
                         <input type="text" placeholder="密码" name="password" id="userpass">

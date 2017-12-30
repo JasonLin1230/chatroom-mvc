@@ -44,7 +44,7 @@
                         <a href="#" class="md-trigger" option="modify" data-modal="modal-1" user-id="<%=tempUser.getId()%>" user-name="<%=tempUser.getUsername()%>" user-pass="<%=tempUser.getPassword()%>">修改</a>
                         <form action="Dispose" method="post" style="display: inline-block;">
                             <input type="text" name="username" style="display: none;" value="<%=tempUser.getUsername()%>">
-                            <button type="submit" class="op_btn" onclick="return confirm('您确认要执行删除吗?')">删除</button>
+                            <button type="button" class="op_btn delete">删除</button>
                         </form>
                     </td>
                 </tr>
@@ -60,7 +60,7 @@
                         <input type="text"  placeholder="ID" name="userid" id="userid">
                     </li>
                     <li class="input-wrap">
-                        <input type="text" placeholder="用户名" name="username" id="username">
+                        <input type="text" placeholder="用户名" name="username" id="username" autofocus="autofocus">
                     </li>
                     <li class="input-wrap">
                         <input type="text" placeholder="密码" name="password" id="userpass">

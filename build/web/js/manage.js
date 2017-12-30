@@ -76,5 +76,18 @@ $(function(){
                 area: ['280px','50px'],
                 offset: '50px'
             });
-    }
+    };
+    var delete_form=$(".content form");
+    var delete_btn=$(".delete");
+    delete_btn.click(function (){
+        layer.confirm('确认删除吗？', {
+            icon: 3,
+            title:'警告',
+            btn: ['确认','取消'] 
+        },  function(){
+            delete_form.submit();
+        }, function(){
+            layer.close();
+        });
+    });
 });
